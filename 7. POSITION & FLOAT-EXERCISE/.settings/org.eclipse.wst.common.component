@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="7. POSITION &amp; FLOAT-EXERCISE">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="7._POSITION_&amp;_FLOAT-EXERCISE"/>
+    </wb-module>
+</project-modules>
