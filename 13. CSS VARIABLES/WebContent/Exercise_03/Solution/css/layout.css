@@ -1,0 +1,39 @@
+
+html {
+	box-sizing: border-box;
+	font: 14px/1.5 (var --primary-font);
+	
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: ffffff;
+	color: #333;
+	font: inherit;
+	width: 60%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	margin: 2rem;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: (var --font-headings);
+	margin-bottom: 2rem;
+}
+
+h2, h3, h4{
+	font-family: (var --font-headings);
+	margin: 1em 0 1em 0;
+}
