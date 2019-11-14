@@ -1,4 +1,4 @@
-﻿# 04 - Border Animation
+﻿# 03 - Border Animation
 
 ## Tasks
 * Create **index.html** and **style.css** files
