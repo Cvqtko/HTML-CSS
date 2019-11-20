@@ -1,0 +1,71 @@
+.about-me h1 {
+	font-size: 2.4rem;
+	margin-top: 0.4em;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header p {
+	text-align: center;
+	color: #44c7f4;
+	letter-spacing: 7px;
+	font-size: 13px;
+	margin-bottom: 0.4em;
+}
+
+.my-info {
+	display: flex;
+	margin-top: 1em;
+}
+
+.agile-left img {
+	width: 70%;
+	height: auto;
+	margin-left: 6em;
+}
+
+.my-info {
+	display: grid;
+	grid-template-columns: 45% 45%;
+}
+
+.agile-right {
+	padding-top: 1em;
+	letter-spacing: 3px;
+}
+
+.agile-right-info {
+	color: #696969;
+	border-bottom: 1px dashed #44c7f4;
+	padding-bottom: 1em;
+}
+
+.agile-right-info h4 {
+	color: #313131;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.agile-right-info p {
+	color: #696969;
+	font-size: 0.6rem;
+}
+
+.agile-right-info a {
+	text-decoration: none;
+	color:#44c7f4;
+}
+
+
+
+
+
+
+
+

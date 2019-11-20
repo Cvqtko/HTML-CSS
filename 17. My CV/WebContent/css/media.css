@@ -1,0 +1,24 @@
+@media ( max-width : 900px) {
+	.my-info {
+		grid-template-columns: 100%;
+	}
+	.agile-left img {
+		width: 70%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.agile-right-info {
+		padding-left: 1em;
+		margin-top: 1em;
+		text-align: center;
+	}
+	.agile-left img {
+		width: 50%;
+		height: auto;
+	}
+	.agile-right{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
