@@ -23,7 +23,7 @@ header p {
 	margin-bottom: 40px;
 }
 
-/*  header p {
+header p {
 	position: relative;
 	font-family: sans-serif;
 	text-transform: uppercase;
@@ -46,4 +46,4 @@ header p {
 	{
 	background-position: 500%;
 	}
-}  */
+}  

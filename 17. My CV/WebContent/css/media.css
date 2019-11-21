@@ -1,3 +1,9 @@
+@media ( max-width : 500px) {
+	.service-container {
+		padding: 0 0 0 0;
+	}
+}
+
 @media ( max-width : 900px) {
 	.my-info {
 		grid-template-columns: 100%;
@@ -17,8 +23,37 @@
 		width: 50%;
 		height: auto;
 	}
-	.agile-right{
+	.agile-right {
 		width: 80%;
 		margin: 0 auto;
+	}
+	.agile-right-info p {
+		font-size: 1em;
+	}
+	.service-container {
+		grid-template-columns: 60%;
+		padding-bottom: 2em;
+	}
+	.header-services h1 {
+		padding-top: 4rem;
+	}
+	.service p {
+		font-size: 1em;
+	}
+	.service h4 {
+		font-size: 1em;
+	}
+	.services {
+		background: url('../images/serve1.jpg') no-repeat center;
+		background-size: 150% 100%;
+	}
+	.service {
+		margin-bottom: 2em;
+	}
+	.service:last-child {
+		padding-bottom: 1em;
+	}
+	.header-services p {
+		margin-bottom: 2em;
 	}
 }

@@ -1,0 +1,55 @@
+.services {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.header-services {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-services h1 {
+	font-size: 2.5em;
+	padding-top: 1em;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+}
+
+.header-services p {
+	text-align: center;
+	color: #44c7f4;
+	letter-spacing: 7px;
+	font-size: 13px;
+	margin-bottom: 5em;
+}
+
+.services {
+	background: url('../images/serve.jpg') no-repeat center;
+}
+
+.service-container {
+	color: white;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 4em 4em 4em;
+}
+
+.service h4 {
+	margin: 0.5em auto;
+	color: #44c7f4;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.service p {
+	color: #d2d6da;
+	font-size: 0.8em;
+}
+
+.fa, .far {
+	font-size: 2.5em;
+	color: #fff;
+}

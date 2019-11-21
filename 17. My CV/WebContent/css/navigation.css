@@ -17,13 +17,8 @@
 }
 
 .navigation a:hover {
-	background-color: #696969;
-	color: white;
-}
-
-.topnav a.active {
-	background-color: #4CAF50;
-	color: white;
+	background-color: white;
+	color: #696969;
 }
 
 .navigation .icon {

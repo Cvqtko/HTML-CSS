@@ -5,12 +5,12 @@
 	letter-spacing: 2px;
 }
 
-.header {
+.header-about-me {
 	text-align: center;
 	text-transform: uppercase;
 }
 
-.header p {
+.header-about-me p {
 	text-align: center;
 	color: #44c7f4;
 	letter-spacing: 7px;
@@ -54,7 +54,7 @@
 
 .agile-right-info p {
 	color: #696969;
-	font-size: 0.6rem;
+	font-size: 0.8em; 
 }
 
 .agile-right-info a {
