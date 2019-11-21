@@ -1,0 +1,97 @@
+.skills {
+	color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-around;
+}
+
+.education h1 {
+	text-align: center;
+	color: #44c7f4;
+	text-transform: uppercase;
+	margin: 1em 0 0.5em 0;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+}
+
+.education-uni {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.education-uni:not(:last-child ){
+	border-bottom: 1px dashed #d2d6da;;
+}
+
+.education-uni h4 {
+	letter-spacing: 0.1em;
+	font-weight: 200;
+}
+
+.education-uni h6 {
+	font-size: 0.7em;
+	margin-bottom: 4em;
+	letter-spacing: 0.1em;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.education-info h4 {
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+.education-info p {
+	font-size: 0.8em;
+	color: #808080;
+}
+
+.education-year {
+	margin-right: 1em;
+}
+
+.education-year h4, h6 {
+	border-left: 4px solid #eb5424;
+	padding-left: 0.5em;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.education-year  h6 {
+	color: #44c7f4;
+	padding-left: 1em;
+}
+
+.skills-1 h1 {
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 1em 0 0.5em 0;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+}
+
+.skills-1 {
+	background: url('../images/banner1.jpg') no-repeat center;
+	width: 100%;
+}
+
+.skills-2 h1 {
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 1em 0 0.5em 0;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+}
+
+.skills-2 {
+	background: url('../images/banner1.jpg') no-repeat center;
+	width: 100%;
+}

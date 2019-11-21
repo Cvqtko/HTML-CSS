@@ -1,10 +1,10 @@
-@media ( max-width : 500px) {
+@media ( max-width : 768px) {
 	.service-container {
 		padding: 0 0 0 0;
 	}
 }
 
-@media ( max-width : 900px) {
+@media ( max-width : 992px) {
 	.my-info {
 		grid-template-columns: 100%;
 	}
@@ -15,7 +15,6 @@
 		margin: 0 auto;
 	}
 	.agile-right-info {
-		padding-left: 1em;
 		margin-top: 1em;
 		text-align: center;
 	}
@@ -55,5 +54,8 @@
 	}
 	.header-services p {
 		margin-bottom: 2em;
+	}
+	.skills {
+			grid-template-columns: 100%;
 	}
 }
