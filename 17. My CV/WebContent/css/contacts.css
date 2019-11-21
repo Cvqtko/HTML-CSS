@@ -1,0 +1,19 @@
+.contacts h1 {
+	font-size: 2.4rem;
+	margin-top: 0.8em;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.contacts {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contacts p {
+	text-align: center;
+	color: #44c7f4;
+	letter-spacing: 7px;
+	font-size: 13px;
+	margin-bottom: 4em;
+}
