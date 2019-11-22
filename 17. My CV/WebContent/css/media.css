@@ -10,23 +10,45 @@
 	.education h1 {
 		font-size: 2em;
 	}
+	.repositories h1 {
+		font-size: 2em;
+	}
+	.copyright {
+		font-size: 0.7em !important;
+	}
+	.icons>i {
+		top: calc(15%) !important;
+	}
+}
+
+@media screen and ( max-width : 768px) {
+	.nav-icon {
+		line-height: 0.1 !important;
+		font-size: 1.5em !important;
+	}
+	.service-container {
+		padding: 0 0 0 0;
+	}
 	.wrapper {
 		grid-template-columns: repeat(1, 350px) !important;
 		grid-template-rows: repeat(9, 250px) !important;
 	}
-	.repositories h1 {
-		font-size: 2em;
+	.design-patterns {
+		grid-row: span 1 !important;
+		height: 250px !important;
+	}
+	.footer-container {
+		grid-template-columns: repeat(1, 350px) !important;
+		grid-template-rows: repeat(3, 150px) !important;
+	}
+	.email {
+		padding-top: 20px !important;
+		grid-row: span 1 !important;
+		height: 150px !important;
 	}
 }
 
-}
-@media screen and ( max-width : 768px) {
-	.service-container {
-		padding: 0 0 0 0;
-	}
-}
-
-@media screen and ( max-width : 992px) {
+@media screen and ( max-width : 1080px) {
 	.my-info {
 		grid-template-columns: 100%;
 	}
@@ -83,5 +105,24 @@
 	.wrapper {
 		grid-template-columns: repeat(2, 350px);
 		grid-template-rows: repeat(5, 250px);
+	}
+	.design-patterns {
+		grid-row: span 2;
+		height: 510px;
+	}
+	.footer-container {
+		grid-template-columns: repeat(2, 350px);
+		grid-template-rows: repeat(2, 150px);
+	}
+	.email {
+		grid-row: span 2;
+		height: 320px;
+		padding-top: 100px;
+	}
+	.copyright {
+		font-size: 1em;
+	}
+	.icons>i {
+		top: calc(30%);
 	}
 }

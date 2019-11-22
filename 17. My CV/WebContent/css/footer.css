@@ -1,0 +1,103 @@
+footer {
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: repeat(3, 350px);
+	grid-gap: 20px;
+	justify-content: center;
+	background: black;
+	margin-top: 1.5em;
+	padding-top: 3em;
+	color: white;
+	text-align: center;
+}
+
+.copyright {
+	margin-top: 3em;
+	padding-bottom: 2em;
+	font-size: 0.7em;
+}
+
+.copyright a {
+	color: #44c7f4;
+}
+
+footer p a {
+	color: #999;
+	text-decoration: none;
+}
+
+.container {
+	width: 350px;
+	height: 150px;
+	background: #2e2e2e;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container h6 {
+	border: none;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 0.2em auto;
+}
+
+.container p {
+	color: #999;
+	font-size: 0.7em;
+}
+
+.icons {
+	background-color: #44c7f4;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.icons>i {
+	position: relative;
+	top: calc(20%);
+}
+
+.icons:hover {
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.icons:hover+#location {
+	color: #44c7f4;
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover>#fas {
+	color: #44c7f4;
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover {
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.icons:hover+#mail {
+	color: #44c7f4;
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover {
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.icons:hover+#call {
+	color: #44c7f4;
+	transition: all 0.5s ease-in;
+}

@@ -46,15 +46,15 @@
 	background: url('../images/5.png') no-repeat center;
 }
 
-.java-advanced {
+.html-css {
 	background: url('../images/6.png') no-repeat center;
 }
 
-.html-css {
+.design-patterns {
 	background: url('../images/7.png') no-repeat center;
 }
 
-.design-patterns {
+.java-advanced {
 	background: url('../images/8.png') no-repeat center;
 }
 
@@ -62,16 +62,10 @@
 	background: url('../images/9.png') no-repeat center;
 }
 
-.whiten {
-	width: 350px;
-	height: 250px;
-}
-
-.whiten:hover {
-	background-color: #000;
-	opacity: 0.7;
-	visibility: visible;
-	display: unset;
+ul {
+	list-style: none;
+	justify-content: center;
+	display: flex;
 }
 
 .whiten h4 {
@@ -83,4 +77,19 @@
 	display: block;
 	width: 350px;
 	height: 250px;
+}
+
+.button {
+	width: 350px;
+	height: 250px;
+	border: none;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0px 15px 20px #e0e0e0;
+	cursor: pointer;
+	outline: none;
+}
+
+.button:hover {
+	box-shadow: 0px 15px 20px rgba(42, 147, 227, 0.4);
+	transform: translateY(-7px);
 }
