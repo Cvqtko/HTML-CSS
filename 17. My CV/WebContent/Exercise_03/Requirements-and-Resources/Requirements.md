@@ -1,9 +1,7 @@
-﻿# 03 - Grid Gallery
-------
+﻿# 03 - Redefining grid with Media Queries
 
 ## Tasks
-* Create **index.html** and **style.css** files
-* Use **img** tags to display the pictures
-* Set to the body display property **grid**
-* Define your grid. Your gallery should look like the screenshot.
-* Redefine the grid using Media Queries when the screen has 800px width.
+* Copy the code from **Using Grid Named areas** - exercise 3
+* Redefine the grid using Media Queries when the screen has 1024px width
+
+
