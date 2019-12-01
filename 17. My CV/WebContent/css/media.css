@@ -22,6 +22,10 @@
 }
 
 @media screen and ( max-width : 768px) {
+	.agile-left img {
+		width: 50% !important;
+		height: auto !important;
+	}
 	.nav-icon {
 		line-height: 0.1 !important;
 		font-size: 1.5em !important;
@@ -53,7 +57,7 @@
 		grid-template-columns: 100%;
 	}
 	.agile-left img {
-		width: 70%;
+		width: 30%;
 		height: auto;
 		display: block;
 		margin: 0 auto;
@@ -61,10 +65,6 @@
 	.agile-right-info {
 		margin-top: 1em;
 		text-align: center;
-	}
-	.agile-left img {
-		width: 50%;
-		height: auto;
 	}
 	.agile-right {
 		width: 80%;
