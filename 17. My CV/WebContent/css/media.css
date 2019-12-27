@@ -1,4 +1,4 @@
-@media screen and ( max-width : 480px) {
+@media screen and (max-width : 480px) {
 	.education-uni {
 		margin-left: 0em;
 		margin-right: 0em;
@@ -7,12 +7,12 @@
 		grid-template-columns: 100% !important;
 		padding: 0 0 2em 0 !important;
 	}
-	.education h1 {
+ 	.education h1 {
 		font-size: 2em;
 	}
 	.repositories h1 {
 		font-size: 2em;
-	}
+	} 
 	.copyright {
 		font-size: 0.7em !important;
 	}
@@ -21,7 +21,7 @@
 	}
 }
 
-@media screen and ( max-width : 768px) {
+@media screen and (max-width : 768px) {
 	.align-left img {
 		width: 50% !important;
 		height: auto !important;
@@ -52,7 +52,7 @@
 	}
 }
 
-@media screen and ( max-width : 1080px) {
+@media screen and (max-width : 1080px) {
 	.my-info {
 		grid-template-columns: 100%;
 	}
