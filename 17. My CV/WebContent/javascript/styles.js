@@ -3,7 +3,7 @@ window.addEventListener('load', (event) => {
 });
 
 function myFunction() {
-	  var x = document.getElementById("my-navigation");
+	  var x = document.getElementById("navigation");
 	  if (x.className === "navigation") {
 	    x.className += " responsive";
 	  } else {
