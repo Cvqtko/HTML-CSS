@@ -23,7 +23,7 @@
 	margin-top: 1em;
 }
 
-.agile-left img {
+.align-left img {
 	width: 70%;
 	height: auto;
 	margin-left: 6em;
@@ -34,30 +34,30 @@
 	grid-template-columns: 45% 45%;
 }
 
-.agile-right {
+.align-right {
 	padding-top: 1em;
 	letter-spacing: 3px;
 }
 
-.agile-right-info {
+.align-right-info {
 	color: #696969;
 	border-bottom: 1px dashed #44c7f4;
 	padding-bottom: 1em;
 }
 
-.agile-right-info h4 {
+.align-right-info h4 {
 	color: #313131;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 1.2rem;
 }
 
-.agile-right-info p {
+.align-right-info p {
 	color: #696969;
 	font-size: 0.8em; 
 }
 
-.agile-right-info a {
+.align-right-info a {
 	text-decoration: none;
 	color:#44c7f4;
 }

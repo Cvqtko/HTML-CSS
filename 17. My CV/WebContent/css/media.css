@@ -22,7 +22,7 @@
 }
 
 @media screen and ( max-width : 768px) {
-	.agile-left img {
+	.align-left img {
 		width: 50% !important;
 		height: auto !important;
 	}
@@ -56,21 +56,21 @@
 	.my-info {
 		grid-template-columns: 100%;
 	}
-	.agile-left img {
+	.align-left img {
 		width: 30%;
 		height: auto;
 		display: block;
 		margin: 0 auto;
 	}
-	.agile-right-info {
+	.align-right-info {
 		margin-top: 1em;
 		text-align: center;
 	}
-	.agile-right {
+	.align-right {
 		width: 80%;
 		margin: 0 auto;
 	}
-	.agile-right-info p {
+	.align-right-info p {
 		font-size: 1em;
 	}
 	.service-container {
