@@ -29,5 +29,6 @@ table tr:hover td {
 	background: black;
 	color: #FFF;
 	border-color: transparent;
+	cursor: pointer;
 }
 
