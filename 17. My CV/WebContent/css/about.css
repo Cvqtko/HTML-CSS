@@ -26,7 +26,6 @@
 .align-left img {
 	width: 70%;
 	height: auto;
-	display: table-cell;
 	margin-left: 6em;
 }
 
