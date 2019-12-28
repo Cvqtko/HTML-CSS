@@ -73,13 +73,8 @@ ul {
 	transform: translateY(200%);
 }
 
-.link {
-	display: block;
-	width: 350px;
-	height: 250px;
-}
-
 .button {
+	display: block;
 	width: 350px;
 	height: 250px;
 	border: none;
