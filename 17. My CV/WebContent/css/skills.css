@@ -54,7 +54,7 @@
 	margin-right: 1em;
 }
 
-.education-year h4, h6 {
+.education-year h4, .education-year h6 {
 	border-left: 4px solid #eb5424;
 	padding-left: 0.5em;
 	font-size: 1rem;
