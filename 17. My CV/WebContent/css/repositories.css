@@ -10,14 +10,6 @@
 	text-transform: uppercase;
 }
 
-.repositories p {
-	text-align: center;
-	color: #44c7f4;
-	letter-spacing: 7px;
-	font-size: 13px;
-	margin-bottom: 4em;
-}
-
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 350px);

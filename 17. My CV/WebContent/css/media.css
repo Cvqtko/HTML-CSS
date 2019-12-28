@@ -23,9 +23,6 @@
 		grid-template-columns: 60%;
 		padding-bottom: 2em;
 	}
-	.header-services h1 {
-		padding-top: 4rem;
-	}
 	.service p {
 		font-size: 1em;
 	}
@@ -85,7 +82,7 @@
 	.service-container {
 		padding: 0 0 0 0;
 	}
-	.wrapper {
+	.repositories .wrapper {
 		grid-template-columns: repeat(1, 350px);
 		grid-template-rows: repeat(9, 250px);
 	}
@@ -105,9 +102,6 @@
 }
 
 @media screen and (max-width : 480px) {
-	.align-right-info p {
-		font-size: 0.8em;
-	}
 	.education-uni {
 		margin-left: 0em;
 		margin-right: 0em;
@@ -116,24 +110,19 @@
 		grid-template-columns: 100%;
 		padding: 0 0 2em 0;
 	}
-	.education h1 {
-		font-size: 2em;
-	}
-	.repositories h1 {
-		font-size: 2em;
-	}
-	.copyright {
-		font-size: 0.7em;
-	}
 	.icons>i {
 		top: calc(15%);
 	}
 }
 
 @media screen and (max-width : 375px) {
-	
-	
-	
+	.repositories .wrapper {
+		grid-template-columns: repeat(1, 300px);
+		grid-template-rows: repeat(9, 250px);
+	}
+	.repositories .wrapper .button {
+		width: 300px;
+	}
 	.footer-container {
 		grid-template-columns: repeat(1, 300px);
 		grid-template-rows: repeat(3, 150px);

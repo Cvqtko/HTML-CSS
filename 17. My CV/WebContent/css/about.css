@@ -10,12 +10,12 @@
 	text-transform: uppercase;
 }
 
-.header-about-me p {
+.subheading {
 	text-align: center;
 	color: #44c7f4;
 	letter-spacing: 7px;
-	font-size: 13px;
-	margin-bottom: 0.4em;
+	font-size: 1em;
+	margin-bottom: 2em;
 }
 
 .my-info {
