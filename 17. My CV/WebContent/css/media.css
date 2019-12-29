@@ -51,7 +51,7 @@
 	}
 	.design-patterns {
 		grid-row: span 2;
-		height: 510px;
+		height: 520px;
 	}
 	.footer-container {
 		grid-template-columns: repeat(2, 350px);
@@ -99,7 +99,7 @@
 	.footer-container p {
 		font-size: 1em;
 	}
-	.icons>i {
+	.icons>a i {
 		top: calc(25%);
 	}
 }
@@ -113,7 +113,7 @@
 		grid-template-columns: 100%;
 		padding: 0 0 2em 0;
 	}
-	.icons>i {
+	.icons>a i {
 		top: calc(30%);
 	}
 }

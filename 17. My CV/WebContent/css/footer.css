@@ -62,9 +62,10 @@ footer p a {
 	margin: 0 auto;
 }
 
-.icons>i {
+.icons>a i{
 	position: relative;
 	top: calc(20%);
+	color: white;
 }
 
 .icons:hover {
@@ -82,12 +83,22 @@ footer p a {
 	transition: all 0.5s ease-in;
 }
 
+.icons:hover>a #fas {
+	color: #44c7f4;
+	transition: all 0.5s ease-in;
+}
+
 .icons:hover {
 	background-color: white;
 	transition: all 0.5s ease-in-out;
 }
 
-.icons:hover+#mail {
+#mail a {
+	text-decoration: none;
+	color: white;
+}
+
+.icons:hover+#mail a{
 	color: #44c7f4;
 	transition: all 0.5s ease-in;
 }
