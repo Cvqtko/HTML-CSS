@@ -1,0 +1,19 @@
+.gallery {
+	
+}
+
+.gallery li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.gallery img {
+	width:300px;
+	height:auto;
+	display: block;
+}
+
+.site{
+	max-width: 60em;
+	margin:0 auto;
+}

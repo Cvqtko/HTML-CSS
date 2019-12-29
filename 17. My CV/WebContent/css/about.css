@@ -18,20 +18,18 @@
 	margin-bottom: 2em;
 }
 
-.my-info {
-	display: flex;
-	margin-top: 1em;
-}
-
 .align-left img {
 	width: 70%;
 	height: auto;
-	margin-left: 6em;
+	margin-left: 5em;
+	display: block;
 }
 
 .my-info {
 	display: grid;
 	grid-template-columns: 45% 45%;
+	align-items: center;
+	justify-content: center;
 }
 
 .align-right {
