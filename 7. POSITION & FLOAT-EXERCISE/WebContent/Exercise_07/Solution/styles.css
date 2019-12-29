@@ -5,12 +5,17 @@
 .gallery li {
 	display: inline-block;
 	vertical-align: middle;
+	width: 25%; 
+	margin: 1%;
+	overflow: hidden;
+	border: 5px solid black;
+	padding: 5px;
 }
 
 .gallery img {
-	width:300px;
-	height:auto;
+	width:100%;
 	display: block;
+
 }
 
 .site{
