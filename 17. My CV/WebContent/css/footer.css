@@ -16,6 +16,7 @@ footer {
 	text-align: center;
 }
 
+
 #nav-google {
 	display: none;
 	width: 600px;
@@ -28,15 +29,18 @@ footer {
 	float: right;
 }
 
+.copyright .git {
+	color: #44c7f4;
+} 
+
+
 .copyright {
+	color:#999;
 	margin-top: 3em;
 	padding-bottom: 2em;
 	font-size: 0.7em;
 }
 
-.copyright a {
-	color: #44c7f4;
-}
 
 footer p a {
 	color: #999;
@@ -81,6 +85,7 @@ footer p a {
 }
 
 .icons:hover {
+	cursor:pointer;
 	background-color: white;
 	transition: all 0.5s ease-in-out;
 }
