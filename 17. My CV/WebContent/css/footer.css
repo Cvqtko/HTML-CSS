@@ -16,31 +16,16 @@ footer {
 	text-align: center;
 }
 
-
-#nav-google {
-	display: none;
-	width: 600px;
-	height: 450px;
-	margin-top: 4px;
-}
-
-.close {
-	padding:0 12px 0 12px;
-	float: right;
-}
-
 .copyright .git {
 	color: #44c7f4;
-} 
-
+}
 
 .copyright {
-	color:#999;
+	color: #999;
 	margin-top: 3em;
 	padding-bottom: 2em;
 	font-size: 0.7em;
 }
-
 
 footer p a {
 	color: #999;
@@ -78,14 +63,14 @@ footer p a {
 	margin: 0 auto;
 }
 
-.icons>a i{
+.icons>a i {
 	position: relative;
 	top: calc(20%);
 	color: white;
 }
 
 .icons:hover {
-	cursor:pointer;
+	cursor: pointer;
 	background-color: white;
 	transition: all 0.5s ease-in-out;
 }
@@ -115,7 +100,7 @@ footer p a {
 	color: white;
 }
 
-.icons:hover+#mail a{
+.icons:hover+#mail a {
 	color: #44c7f4;
 	transition: all 0.5s ease-in;
 }
