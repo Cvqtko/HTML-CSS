@@ -57,13 +57,25 @@
 		grid-template-columns: repeat(2, 350px);
 		grid-template-rows: repeat(2, 150px);
 	}
-	.email {
+	.hide-map {
 		grid-row: span 2;
 		height: 320px;
 		padding-top: 100px;
 	}
+	.call {
+		grid-column: 2/2;
+	}
+	iframe {
+		height: 320px;
+	}
+	#map {
+		height: 320px;
+	}
 	.copyright {
 		font-size: 1em;
+	}
+	#close {
+		bottom: 325px;
 	}
 }
 
@@ -91,16 +103,28 @@
 		grid-template-columns: repeat(1, 350px);
 		grid-template-rows: repeat(3, 150px);
 	}
-	.email {
+	.hide-map {
 		padding-top: 20px;
 		grid-row: span 1;
 		height: 150px;
+	}
+	iframe {
+		height: 150px;
+	}
+	#map {
+		height: 150px;
+	}
+	.call {
+		grid-column: 1/2;
 	}
 	.footer-container p {
 		font-size: 1em;
 	}
 	.icons>a i {
 		top: calc(25%);
+	}
+	#close {
+		bottom: 155px;
 	}
 }
 
