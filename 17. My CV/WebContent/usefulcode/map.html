@@ -4,20 +4,17 @@
 <meta charset="UTF-8">
 <title>Map</title>
 <script type="text/javascript">
-	function myLocation() {
+	function showMap() {
 		document.getElementById('map').style.display='block';
-		document.getElementById('close').style.display='block';
+		document.getElementById('hide-map').style.display='block';
 		document.getElementById('show-map').style.display='none';
 	}
-	function closed(){
+	function hideMap(){
 		document.getElementById('map').style.display='none';
-		document.getElementById('close').style.display='none';
+		document.getElementById('hide-map').style.display='none';
 		document.getElementById('show-map').style.display='block';
 	}
 </script>
-
-
-
 <style>
 #map {
 	display: none;
@@ -28,7 +25,7 @@
 	padding-top: 0px;
 }
 
-#close {
+#hide-map {
 	display: none;
 	margin-left: 320px;
 	cursor: pointer;
@@ -38,31 +35,25 @@
 	font-size: 1.25em;
 }
 
-#map > button {
-  opacity: 0.7;
-  position:relative;
-  float: right;
-  right:5px;
-  bottom:160px;
-  transition: 0.5s;
-  color: black;
-}
-#show-map {
-	
+#map>button {
+	opacity: 0.7;
+	position: relative;
+	float: right;
+	right: 5px;
+	bottom: 150px;
+	transition: 0.5s;
+	color: black;
 }
 </style>
 </head>
 <body>
-	<button id="show-map" onclick=myLocation()>Click Me!!!</button>
-
+	<button id="show-map" onclick=showMap()>Click Me!!!</button>
 	<div id="map">
-
-
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.5935512004303!2d23.26907441472004!3d42.66996782346768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa84cecc3febb7%3A0xf139452796a01acf!2sul.%20%22Belmeken%22%202%2C%201618%20Bakston%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1577795927485!5m2!1sen!2sbg"
-			width="350" height="150" frameborder="0" style="border: 0;"
+			width="350" height="150" frameborder="0"
 			allowfullscreen=""></iframe>
-		<button id="close" onclick=closed()>&times;</button>
+		<button id="hide-map" onclick=hideMap()>&times;</button>
 	</div>
 
 </body>

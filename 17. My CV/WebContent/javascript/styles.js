@@ -14,6 +14,7 @@ function showMap() {
 	document.getElementById('map').style.display='block';
 	document.getElementById('close').style.display='block';
 	document.getElementById('hide-map').style.display='none';
+
 }
 function hideMap(){
 	document.getElementById('map').style.display='none';
