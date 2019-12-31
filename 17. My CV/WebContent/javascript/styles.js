@@ -2,7 +2,7 @@ window.addEventListener('load', (event) => {
   document.getElementsByTagName('body')[0].classList.add('loaded');
 });
 
-function myFunction() {
+function showNavigation() {
 	  var x = document.getElementById("navigation");
 	  if (x.className === "navigation") {
 	    x.className += " responsive";
@@ -10,12 +10,12 @@ function myFunction() {
 	    x.className = "navigation";
 	  }
 }
-function myLocation() {
+function showMap() {
 	document.getElementById('map').style.display='block';
 	document.getElementById('close').style.display='block';
 	document.getElementById('hide-map').style.display='none';
 }
-function closed(){
+function hideMap(){
 	document.getElementById('map').style.display='none';
 	document.getElementById('close').style.display='none';
 	document.getElementById('hide-map').style.display='block';

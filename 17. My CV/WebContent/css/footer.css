@@ -143,6 +143,9 @@ footer p a {
 	color: black;
 }
 
-.iframe-map {
-	
+iframe{
+	width:350px; 
+	height:150px; 
+	frameborder:0;
+	border: 0;
 }

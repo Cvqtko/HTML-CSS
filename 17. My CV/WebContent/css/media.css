@@ -133,4 +133,10 @@
 	.footer-container .container {
 		width: 300px;
 	}
+	iframe {
+		width: 300px;
+	}
+	#map {
+		width: 300px;
+	}
 }
