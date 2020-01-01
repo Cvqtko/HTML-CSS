@@ -65,17 +65,8 @@
 	.call {
 		grid-column: 2/2;
 	}
-	iframe {
-		height: 320px;
-	}
-	#map {
-		height: 320px;
-	}
 	.copyright {
 		font-size: 1em;
-	}
-	#close {
-		bottom: 325px;
 	}
 }
 
@@ -108,12 +99,6 @@
 		grid-row: span 1;
 		height: 150px;
 	}
-	iframe {
-		height: 150px;
-	}
-	#map {
-		height: 150px;
-	}
 	.call {
 		grid-column: 1/2;
 	}
@@ -122,9 +107,6 @@
 	}
 	.icons>a i {
 		top: calc(25%);
-	}
-	#close {
-		bottom: 155px;
 	}
 }
 
@@ -155,12 +137,6 @@
 		grid-template-rows: repeat(3, 150px);
 	}
 	.footer-container .container {
-		width: 300px;
-	}
-	iframe {
-		width: 300px;
-	}
-	#map {
 		width: 300px;
 	}
 }

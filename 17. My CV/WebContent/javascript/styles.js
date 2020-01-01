@@ -12,12 +12,10 @@ function showNavigation() {
 }
 function showMap() {
 	document.getElementById('map').style.display='block';
-	document.getElementById('close').style.display='block';
-	document.getElementById('hide-map').style.display='none';
+	document.getElementById('close-map').style.display='block';
 
 }
 function hideMap(){
 	document.getElementById('map').style.display='none';
-	document.getElementById('close').style.display='none';
-	document.getElementById('hide-map').style.display='block';
+	document.getElementById('close-map').style.display='none';
 }
