@@ -1,6 +1,3 @@
-window.addEventListener('load', (event) => {
-  document.getElementsByTagName('body')[0].classList.add('loaded');
-});
 
 function showNavigation() {
 	  var x = document.getElementById("navigation");
@@ -19,3 +16,4 @@ function hideMap(){
 	document.getElementById('map').style.display='none';
 	document.getElementById('close-map').style.display='none';
 }
+

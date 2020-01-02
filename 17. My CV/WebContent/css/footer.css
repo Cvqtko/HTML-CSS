@@ -146,3 +146,8 @@ iframe {
         opacity: 1; 
     }       
 }
+
+
+.container h6, p{
+	cursor: pointer;
+}
