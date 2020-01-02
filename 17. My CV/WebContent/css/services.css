@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 .services {
 	text-align: center;
 	margin-top: 2em;
@@ -11,7 +13,7 @@
 .header-services h1 {
 	font-size: 2.5em;
 	padding-top: 0.8em;
-	color: #ffffff;
+	color: white;
 	letter-spacing: 0.1em;
 	font-weight: 400;
 }
@@ -32,7 +34,7 @@
 
 .service h4 {
 	margin: 0.5em auto;
-	color: #44c7f4;
+	color: var(--electric-blue);
 	font-weight: 400;
 	text-transform: uppercase;
 }

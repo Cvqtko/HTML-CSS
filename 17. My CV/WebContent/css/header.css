@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 header {
 	margin: 0 auto;
 	padding-top: 6em;
@@ -15,11 +17,11 @@ header h1 {
 }
 
 header img {
-	border: 7px solid #44c7f4;
+	border: 7px solid var(--electric-blue);
 }
 
 header p {
-	color: #44c7f4;
+	color: var(--electric-blue);
 	margin-bottom: 40px;
 	position: relative;
 	font-family: sans-serif;

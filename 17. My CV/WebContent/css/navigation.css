@@ -1,6 +1,8 @@
+@import url('variables.css');
+
 .navigation {
 	overflow: hidden;
-	background-color: #44c7f4;
+	background-color: var(--electric-blue);
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 1.5em;
@@ -59,7 +61,7 @@
 	  --initialTextColor: #FFF;
       --slideTextColor: #696969;
 
-      --initialBgColor: #44c7f4;
+      --initialBgColor: var(--electric-blue);
       --slideBgColor: #FFF;
       color: white;
       
