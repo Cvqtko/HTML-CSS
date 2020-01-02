@@ -17,3 +17,7 @@ function hideMap(){
 	document.getElementById('close-map').style.display='none';
 }
 
+function sendEmail() 
+{
+    window.location = "mailto:cvqtkokirilov@gmail.com";
+}
