@@ -123,7 +123,8 @@ footer p a {
 	top: 0%;
 	left: 0%;
 	z-index: 1;
-	background-color: rgba(0, 0, 0, 0.3)
+	background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 iframe {
@@ -132,4 +133,16 @@ iframe {
 	height: 80%;
 	top: 10%;
 	left: 10%;
+    animation-name: fadeIn;
+    animation-duration: 1s; 
+}
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
 }
