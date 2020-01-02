@@ -17,25 +17,25 @@ footer {
 }
 
 .copyright .git {
-	color: #44c7f4;
+	color: var(--electric-blue);
 }
 
 .copyright {
-	color: #999;
+	color: var(--iron-grey);
 	margin-top: 3em;
 	padding-bottom: 2em;
 	font-size: 0.7em;
 }
 
 footer p a {
-	color: #999;
+	color: var(--iron-grey);
 	text-decoration: none;
 }
 
 .container {
 	width: 350px;
 	height: 150px;
-	background: #2e2e2e;
+	background: var(--charcoal); 
 	color: white;
 	text-align: center;
 	padding-top: 20px;
@@ -51,7 +51,7 @@ footer p a {
 }
 
 .container p {
-	color: #999;
+	color: var(--iron-grey);
 	font-size: 0.7em;
 }
 

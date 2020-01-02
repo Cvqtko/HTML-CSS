@@ -49,7 +49,7 @@
 
 .education-info p {
 	font-size: 0.8em;
-	color: #808080;
+	color: var(--pewter-grey);
 }
 
 .education-year {
@@ -57,7 +57,7 @@
 }
 
 .education-year h4, .education-year h6 {
-	border-left: 4px solid #eb5424;
+	border-left: 4px solid var(--papaya-orange);
 	padding-left: 0.5em;
 	font-size: 1rem;
 	text-transform: uppercase;
@@ -70,7 +70,7 @@
 
 .skills-h1 {
 	text-align: center;
-	color: #ffffff;
+	color: white;
 	text-transform: uppercase;
 	margin: 0em 0 0.5em 0;
 	font-size: 2.5em;
