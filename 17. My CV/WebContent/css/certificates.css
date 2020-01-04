@@ -1,0 +1,32 @@
+.certificates {
+	background: url('../images/banner1.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+
+.certificates h1 {
+	color: white;
+}
+
+.certificates-container.sertificate {
+	align-items: center;
+}
+
+.sertificate{
+	width:86%;
+	margin-left: 7%;
+	margin-bottom:5%;
+	text-align: center;
+}
+
+.sertificate h4 {
+	margin: 0.5em auto;
+	color: var(--electric-blue);
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.sertificate p {
+	color: #d2d6da;
+	font-size: 0.8em;
+}
+

@@ -149,6 +149,6 @@ iframe {
 }
 
 
-.container h6, p{
+.container h6,.container p{
 	cursor: pointer;
 }

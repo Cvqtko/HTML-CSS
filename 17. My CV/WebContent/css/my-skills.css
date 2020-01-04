@@ -1,20 +1,29 @@
 @import url('variables.css');
 
-.skills-ul {
+.myskills h1 {
+	color: white;
+}
+
+.myskills {
+	background: url('../images/banner1.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+
+.myskills ul {
 	list-style: none;
 	width:86%;
 	margin-left: 7%;
 	color:white;
 }
 
-.skills-ul h3{
+.myskills h3{
 	font-size: 1em;
 	margin-left: 0.168em;
 	padding-bottom: 0.168em;
 	font-style: italic;
 }
 
-.skills-ul li{
+.myskills li{
 	padding-bottom: 2em;
 }
 
