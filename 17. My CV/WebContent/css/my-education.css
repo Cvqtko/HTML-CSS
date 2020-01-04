@@ -6,7 +6,7 @@
 	grid-template-columns: 50% 50%;
 }
 
-.education-h1 {
+.skills h1 {
 	text-align: center;
 	color: var(--electric-blue);
 	text-transform: uppercase;
@@ -68,18 +68,11 @@
 	padding-left: 1em;
 }
 
-.skills-h1 {
-	text-align: center;
+.myskills h1 {
 	color: white;
-	text-transform: uppercase;
-	margin: 0em 0 0.5em 0;
-	font-size: 2.5em;
-	letter-spacing: 0.1em;
-	font-weight: 400;
-	padding-top: 0.7em;
 }
 
-.skills-1 {
+.myskills {
 	background: url('../images/banner1.jpg') no-repeat center;
 	background-size: 100% 100%;
 }

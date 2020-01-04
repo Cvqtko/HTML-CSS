@@ -1,0 +1,122 @@
+ul {
+	list-style: none;
+}
+
+.skills {
+	width: 500px;
+}
+
+.skills ul li {
+	margin: 20px 0;
+}
+
+.bar {
+	background: white;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #44c7f4;
+}
+
+.bar span{
+	height: 5px;
+	float: left;
+	background: #44c7f4;
+	
+}
+.java{
+	width:93%;
+	border-radius: 3px;
+	animation: java 1.618s;
+}
+
+.html{
+	width:85%;
+	border-radius: 3px;
+	animation: html 1.618s;
+}
+
+.css{
+	width:85%;
+	border-radius: 3px;
+	animation: html 1.618s;
+}
+
+.my-sql{
+	width:90%;
+	border-radius: 3px;
+	animation: sql 1.618s;
+}
+
+.javascript{
+	width:40%;
+	border-radius: 3px;
+	animation: javascript 1.618s;
+}
+
+.junit{
+	width:93%;
+	border-radius: 3px;
+	animation: junit 1.618s;
+}
+.design-patterns{
+	width:90%;
+	border-radius: 3px;
+	animation: design-patterns 1.618s;
+}
+
+@keyframes java{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:93%;
+	}
+}
+
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:85%;
+	}
+}
+@keyframes sql{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
+@keyframes javascript{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:40%;
+	}
+}
+
+@keyframes junit{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:93%;
+	}
+}
+
+@keyframes design-patterns{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
