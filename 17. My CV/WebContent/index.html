@@ -159,23 +159,30 @@
 			</div>
 		</section>
 		<section class="skills">
+			<div id="oop-certificate" class="certificate" onclick="hideElement('oop-certificate')">
+				<embed src="images/java_OOP_RecordOfAchievement.pdf"/>
+			</div>
+	 		<div id="game-certificate" class="certificate" onclick="hideElement('game-certificate')">
+				<embed src="images/java_Game_RecordOfAchievement.pdf"/>
+			</div>
+ 
 			<div class="certificates">
 				<h1>Certificates</h1>
 				<div class="certificates-container">
-					<div class="sertificate">
-						<i class="fa fa-cog"></i>
+					<div class="sertificate" onclick="showElement('oop-certificate')">
+						<img src="images/certificate.png">
 						<h4>Why choose me</h4>
 						<p>Fast learning, diligent, I’m determined to contribute to
 							the company / project success doing whatever it takes!</p>
 					</div>
-					<div class="sertificate">
-						<i class="fa fa-laptop"></i>
+					<div class="sertificate" onclick="showElement('game-certificate')">
+						<img src="images/certificate.png">
 						<h4>What I do</h4>
 						<p>Strong Software Developing skills using Java, mixed with
 							good HTML5 and SQL understanding.</p>
 					</div>
 					<div class="sertificate">
-						<i class="far fa-thumbs-up"></i>
+						<img src="images/certificate.png">
 						<h4>My mission</h4>
 						<p>To deliver the next generation of information technology
 							services and solutions, exceeding all client expectations.</p>
@@ -240,13 +247,13 @@
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
 				<li class="hibernate button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
-				<li class="my-sql button"><a class="link"
+				<li class="footer-my-sql button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
 				<li class="java-oop button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
 				<li class="html-css button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
-				<li class="design-patterns button"><a class="link"
+				<li class="footer-design-patterns button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
 				<li class="java-advanced button"><a class="link"
 					href="https://github.com/Cvqtko?tab=repositories"></a></li>
@@ -257,7 +264,7 @@
 	</main>
 
 	<footer id="contacts">
-		<div id="map" onclick="hideMap()">
+		<div id="map" onclick="hideElement('map')">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34166.66299361514!2d23.281586912350374!3d42.662134741553885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa84cecc3febb7%3A0xf139452796a01acf!2sul.%20%22Belmeken%22%202%2C%201618%20Bakston%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1577883171325!5m2!1sen!2sbg"></iframe>
 
@@ -266,7 +273,7 @@
 
 			<div class="container hide-map" id="hide-map">
 
-				<div class="icons" onclick=showMap()>
+				<div class="icons" onclick="showElement('map')">
 					<a href="#contacts"><i class="fas fa-map-marker-alt" id="fas"></i></a>
 				</div>
 				<h6 id="location" onclick=showMap()>Location</h6>
