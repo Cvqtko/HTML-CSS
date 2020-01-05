@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 .certificates {
 	background: url('../images/banner1.jpg') no-repeat center;
 	background-size: 100% 100%;
@@ -11,38 +13,42 @@
 	align-items: center;
 }
 
+
 .sertificate {
 	width: 86%;
 	margin-left: 7%;
 	margin-bottom: 5%;
-	text-align: center;
+	text-align: center; 
 	cursor: pointer;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
-	align-content:space-around;
 }
 
 .sertificate h4 {
-	margin: 0.5em auto;
+	margin: 0.5em 0 0.5em 0.5em;
 	color: var(--electric-blue);
 	font-weight: 400;
 }
 
+.sertificate h6{
+	color: var(--anchor-grey);
+}
+
 .sertificate p {
-	color: #d2d6da;
+	color: var(--anchor-grey);
 	font-size: 0.8em;
+	 flex-basis: 100%;
 }
 
 .sertificate a {
-	color: #d2d6da;
+	color: var(--electric-blue);
 	text-decoration: none;
 }
 
 .sertificate img {
-	width: 50px;
-	height: auto;
-	display: inline-block;
-	text-align: center;
+	height: 70px;
+	width: auto;
 }
 
 .certificate {

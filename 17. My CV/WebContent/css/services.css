@@ -40,11 +40,11 @@
 }
 
 .service p {
-	color: #d2d6da;
+	color: var(--anchor-grey);
 	font-size: 0.8em;
 }
 
 .fa, .far {
 	font-size: 2.5em;
-	color: #fff;
+	color: white;
 }
