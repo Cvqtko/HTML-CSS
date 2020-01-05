@@ -18,6 +18,7 @@
 	width: 86%;
 	margin-left: 7%;
 	margin-bottom: 5%;
+	margin-top:2em;
 	text-align: center; 
 	cursor: pointer;
 	display: flex;
@@ -25,14 +26,19 @@
 	flex-wrap: wrap;
 }
 
-.sertificate h4 {
-	margin: 0.5em 0 0.5em 0.5em;
+.soft-uni{
+	margin-top: 0em;
+}
+
+.sertificate h6 {
+	margin: 0em 0 0.5em 0.5em;
 	color: var(--electric-blue);
 	font-weight: 400;
 }
 
-.sertificate h6{
+.sertificate h5{
 	color: var(--anchor-grey);
+	font-size: 1em;
 }
 
 .sertificate p {
