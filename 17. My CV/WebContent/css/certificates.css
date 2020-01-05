@@ -17,13 +17,15 @@
 	margin-bottom: 5%;
 	text-align: center;
 	cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+	align-content:space-around;
 }
 
 .sertificate h4 {
 	margin: 0.5em auto;
 	color: var(--electric-blue);
 	font-weight: 400;
-	text-transform: uppercase;
 }
 
 .sertificate p {
@@ -31,9 +33,16 @@
 	font-size: 0.8em;
 }
 
+.sertificate a {
+	color: #d2d6da;
+	text-decoration: none;
+}
+
 .sertificate img {
 	width: 50px;
 	height: auto;
+	display: inline-block;
+	text-align: center;
 }
 
 .certificate {
@@ -46,12 +55,13 @@
 	z-index: 1;
 	background-color: rgba(0, 0, 0, 0.3);
 }
+
 embed {
 	position: fixed;
 	width: 80%;
 	height: 100%;
 	top: 0%;
 	left: 10%;
-    animation-name: fadeIn;
-    animation-duration: 1s; 
+	animation-name: fadeIn;
+	animation-duration: 1s;
 }
