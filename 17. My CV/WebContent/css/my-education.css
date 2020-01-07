@@ -10,7 +10,7 @@
 	text-align: center;
 	color: var(--electric-blue);
 	text-transform: uppercase;
-	margin: 0em 0 0.5em 0;
+	margin: 0em 0 1em 0;
 	font-size: 2.5em;
 	letter-spacing: 0.1em;
 	font-weight: 400;
@@ -20,7 +20,7 @@
 .education-uni {
 	display: grid;
 	grid-template-columns: 35% 65%;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 	margin-left: 2em;
 	margin-right: 2em;
 }
@@ -36,7 +36,7 @@
 
 .education-uni h6 {
 	font-size: 0.7em;
-	margin-bottom: 4em;
+	margin-bottom: 3em;
 	letter-spacing: 0.1em;
 	font-style: italic;
 	font-weight: 200;
