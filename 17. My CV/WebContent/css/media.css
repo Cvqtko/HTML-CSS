@@ -143,4 +143,7 @@
 	.footer-container .container {
 		width: 300px;
 	}
+	.education-uni h6 {
+		font-size: 0.6em;
+	}
 }
