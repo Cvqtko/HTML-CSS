@@ -23,6 +23,7 @@
 	margin-bottom: 3em;
 	margin-left: 2em;
 	margin-right: 2em;
+	padding-bottom: 3em;
 }
 
 .education-uni:not(:last-child ){
@@ -36,7 +37,6 @@
 
 .education-uni h6 {
 	font-size: 0.7em;
-	margin-bottom: 3em;
 	letter-spacing: 0.1em;
 	font-style: italic;
 	font-weight: 200;
