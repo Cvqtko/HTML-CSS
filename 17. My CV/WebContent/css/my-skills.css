@@ -30,14 +30,14 @@
 .bar {
 	background: white;
 	display: block;
-	height: 6.47px;
+	height: 8.1px;
 	border: 1px solid black;
 	overflow: hidden;
 	border-radius: 3px;	
 }
 
 .bar span{
-	height: 6.47px;
+	height: 8.1px;
 	float: left;
 	background: #44c7f4;
 }
