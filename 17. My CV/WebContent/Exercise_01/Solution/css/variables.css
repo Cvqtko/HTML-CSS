@@ -1,0 +1,11 @@
+h1 { 
+	--font-size-h1: 30px;
+}
+
+h3 { 
+	--font-size-h3: 20px;
+}
+
+p { 
+	--font-size-p: 16px;
+}
