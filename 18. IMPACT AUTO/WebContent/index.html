@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Impact Auto Canada</title>
+<link rel="stylesheet" href="fonts/css/all.css">
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<script>
+	$(document).ready(function() {
+		$("select.country").change(function() {
+			var selectedCountry = $(this).children("option:selected").val();
+			alert("You have selected the country - " + selectedCountry);
+		});
+	});
+</script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"> <img src="images/logo.jpg">
+			</a>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control"
+				placeholder="Type something here">
+			<div class="input-group-btn">
+				<button class="search-button">
+					<i class="fas fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+		<form>
+			<select class="language">
+				<option value="eng">English</option>
+				<option value="bg">Bulgarian</option>
+				<option value="rs">Russian</option>
+			</select>
+
+		</form>
+		<div class="signin">
+			<a href="signin.html">
+				<p>Sign in</p>
+			</a><img src="images/signin.jpg">
+		</div>
+		<div class="register">
+			<button >REGISTER NOW</button>
+		</div>
+	</header>
+
+</body>
+</html>
+
+
