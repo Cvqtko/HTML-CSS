@@ -7,8 +7,9 @@ header {
 }
 
 .logo img {
-	margin: 20px;
-	margin-left: 40px;
+	width: 160px;
+	margin-top: 25px;
+	margin-left: 35px;
 }
 
 header nav {
@@ -61,13 +62,17 @@ header nav ul:nth-child(2) li {
 .form-control {
 	height: 40px;
 	width: 388px;
-	padding-left: 6px;
+	padding-left: 12px;
 	border-radius: #017dd6;
-	font-family: 'Lato';
+	font-family: Tahoma;
 	font-weight: 300;
 	outline: 1px solid #017dd6;
 	outline-offset: -1px;
-	font-size: 16px;
+	font-size: 12px;
+}
+
+::placeholder {
+	color: #c4c4c4;
 }
 
 .search-button {
@@ -121,7 +126,7 @@ select {
 
 .signin {
 	margin-top: 35px;
-	margin-left: 50px;
+	margin-left: 110px;
 	color: #017dd6;
 	font-size: 20px;
 	display: flex;
