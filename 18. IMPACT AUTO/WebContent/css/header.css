@@ -3,67 +3,29 @@ html {
 }
 
 header {
-	display: flex;
+	display: grid;
+	grid-template-columns: 15% 60% 25%;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding-bottom: 0px;
 }
 
 .logo img {
-	width: 160px;
-	margin-top: 25px;
-	margin-left: 35px;
-}
-
-header nav {
-	display: flex;
-	justify-content: space-between;
-	width: 60%;
-	margin: 0 auto;
-}
-
-header nav ul {
-	display: flex;
-}
-
-header nav ul li {
-	list-style-type: none;
-	margin: 1em;
-}
-
-header nav ul:nth-child(1) li {
-	text-transform: uppercase;
-}
-
-header nav ul:nth-child(2) li {
-	border-right: 1px solid grey;
-	padding-right: 0.5em;
-	margin-left: 0em;
-}
-
-.input-group .btn {
-	height: 40px;
+	width: 140px;
+	margin-top: -2px;
 }
 
 .input-group {
 	position: relative;
 	display: inline-block;
 	display: flex;
-}
-
-.form-control:focus {
-	outline: 1px solid #54b6fe;
-	outline-offset: -1px;
-}
-
-.input-group {
-	display: flex;
-	margin-top: 30px;
-	margin-left: 200px;
+	margin-left: 10em;
 }
 
 .form-control {
-	height: 40px;
+	height: 30px;
 	width: 388px;
 	padding-left: 12px;
-	border-radius: #017dd6;
 	font-family: Tahoma;
 	font-weight: 300;
 	outline: 1px solid #017dd6;
@@ -71,13 +33,18 @@ header nav ul:nth-child(2) li {
 	font-size: 12px;
 }
 
+.form-control:focus {
+	outline: 1px solid #54b6fe;
+	outline-offset: -1px;
+}
+
 ::placeholder {
 	color: #c4c4c4;
 }
 
 .search-button {
-	height: 40px;
-	width: 60px;
+	height: 30px;
+	width: 50px;
 	background-color: #017dd6;
 	font-size: 15px;
 	border-radius: 0;
@@ -95,18 +62,22 @@ header nav ul:nth-child(2) li {
 	cursor: pointer;
 }
 
-.search-button i {padding-auto;
+.search-button i {
 	color: white;
 	font-weight: 500px;
 }
 
+form {
+	padding-left: 15px;
+}
+
 .language {
-	width: 110px;
+	margin-top: 5px;
+	width: 76px;
 	border-color: transparent;
-	margin-top: 40px;
 	color: #017dd6;
-	font-size: 20px;
-	margin-left: 30px;
+	font-size: 15px;
+	width: 76px;
 }
 
 .language:active {
@@ -118,46 +89,53 @@ header nav ul:nth-child(2) li {
 }
 
 select {
-	border: 0px;
-	outline: 0px;
 	border: none;
 	outline: none;
 }
 
 .signin {
-	margin-top: 35px;
-	margin-left: 110px;
+	margin-left: auto;
+	margin-right: 20px;
+	margin-top: 2px;
+	display: flex;
 	color: #017dd6;
-	font-size: 20px;
+	color: #017dd6;
+}
+
+.sign {
 	display: flex;
 }
 
-.signin a {
+.sign a {
 	font-family: Tahoma;
 	text-decoration: none;
 	color: #017dd6;
 	text-decoration: none;
 }
 
-.signin img {
-	margin-top: 2px;
-	margin-left: 8px;
-	height: 30px;
+.sign:hover {
+	cursor: pointer;
 }
 
-.register button {
-	margin-top: 30px;
-	margin-left: 15px;
-	padding: 10px 10px 10px 10px;
+.sign img {
+	margin-left: 5px;
+	margin-top: 3px;
+	height: 20px;
+}
+
+.register {
+	height: 25px;
+	margin-left: 10px;
+	padding: 0px 10px 0px 10px;
 	background-color: #fdb81e;
 	color: black;
 	border-radius: 20px;
+	padding: 0px 10px 0px 10px;
+	border: none;
+	font-family: Tahoma;
+	font-size: 12px;
 }
 
-.register button:focus {
+.register:focus {
 	outline: none;
-}
-
-.register button:hover {
-	cursor: pointer;
 }
