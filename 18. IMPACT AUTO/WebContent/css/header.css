@@ -6,7 +6,6 @@ body {
 	margin-top: 25px;
 	margin-left: 20px;
 	margin-right: 20px;
-	
 }
 
 .header {
@@ -54,7 +53,7 @@ body {
 .search-button {
 	height: 30px;
 	width: 50px;
- 	background-color: #017dd6; 
+	background-color: #017dd6;
 	font-size: 15px;
 	border-radius: 0;
 	border-color: transparent;
@@ -87,10 +86,12 @@ form {
 .language {
 	margin-top: 5px;
 	width: 76px;
-	border-color: transparent;
 	color: #017dd6;
 	font-size: 15px;
 	width: 76px;
+	border: none;
+	outline: none;
+	background-color: #fff;
 }
 
 .language:active {
@@ -99,11 +100,6 @@ form {
 
 .language:hover {
 	cursor: pointer;
-}
-
-select {
-	border: none;
-	outline: none;
 }
 
 .signin {
@@ -145,7 +141,6 @@ select {
 	border: none;
 	font-family: Tahoma;
 	font-size: 12px;
-	
 }
 
 .register:focus {
