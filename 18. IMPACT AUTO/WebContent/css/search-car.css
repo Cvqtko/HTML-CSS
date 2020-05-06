@@ -1,19 +1,111 @@
 .search-car {
-	height: 300px;
+	height: 350px;
 	background-image: url(../images/cars.jpg);;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center
 }
 
-section.search-car .field {
+.search-car header {
+	margin-bottom: 70px;
+	padding-top: 40px;
+}
+
+.search-car h2 {
+	color: #fff;
+	font-family: Tahoma;
+	font-weight: 900;
+	font-size: 33px;
+	text-align: center;
+	-webkit-text-stroke: 1px #01599a;
+	margin: 0 auto;
+}
+
+.select {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	width: 840px;
+	display: grid;
+	background-color: #d4d4d6;
+	grid-template-columns: 170px 170px 170px 170px 120px;
+	grid-gap: 5px;
+}
+
+.select-car {
+	width: 170px;
+	height: 40px;
+	padding-left: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 2px;
+	background-image: url(../images/arrows.png);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.select-year {
 	display: flex;
 }
 
-section.search-car .field .input {
-	flex: 1 0 auto;
+.from-year {
+	width: 85px;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 8px;
+	font-family: sans-serif;
+	font-weight: bold;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-image: url(../images/fromYear.png);
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 
-section.search-car .button {
-	background: #400080;
-	margin-left: 0.5rem;
+.to-year {
+	width: 85px;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 8px;
+	font-family: sans-serif;
+	font-weight: bold;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-image: url(../images/toYear.png);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.select-location {
+	width: 170px;
+	height: 40px;
+	margin-right: 2px;
+	padding-left: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 2px;
+	background-image: url(../images/arrows.png);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.search-now {
+	height: 40px;
+	padding: 0px 20px 0px 20px;
+	background-color: #0071bc;
+	color: black;
+	border-radius: 2px;
+	border: none;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: white;
+}
+
+.search-now:focus {
+	outline: none;
+}
+
+.search-now:hover {
+	cursor: pointer;
 }

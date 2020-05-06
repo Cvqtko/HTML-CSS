@@ -3,7 +3,7 @@
 		width: 100px;
 		margin-top: 4px;
 	}
-	header {
+	.header {
 		margin-left: 0px;
 		margin-top: 15px;
 		display: grid;
@@ -16,6 +16,47 @@
 	.input-group {
 		margin-left: 3em;
 	}
+
+	/* search-car */
+	.search-car header {
+		padding-top: 20px;
+		margin-bottom: 90px;
+	}
+	.search-car h2 {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width : 900px) {
+
+	.select {
+		grid-template-columns: 170px 170px 170px 170px;
+		grid-gap: 5px;
+	}
+	.select-year {
+		grid-column: 3/span 2;
+	}
+	.select {
+		width: 715px;
+	}
+	.from-year {
+		width: 170px;
+		margin-right: 5px;
+		background-image: url(../images/fromYearBig.png);
+	}
+	.to-year {
+		width: 170px;
+		background-image: url(../images/toYearBig.png);
+	}
+	.select-location {
+		width: 345px;
+		grid-column: 1/span 2;
+		background-image: url(../images/selectLocationBig.png);
+	}
+	.search-now {
+		width: 345px;
+		grid-column: 3/span 2;
+	}
 }
 
 @media screen and (max-width : 768px) {
@@ -23,7 +64,7 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	header {
+	.header {
 		grid-template-columns: 50% 50%;
 		grid-template-rows: repeat(2, 40px);
 	}
@@ -36,6 +77,30 @@
 	.form-control {
 		width: 100%;
 	}
+	/* search-car */
+	.search-car header {
+		padding-top: 20px;
+		margin-bottom: 60px;
+	}
+	.search-car h2 {
+		font-size: 20px;
+	}
+	.select {
+		width: 365px;
+		grid-template-columns: 170px 170px;
+		grid-gap: 5px;
+	}
+	.select-year {
+		grid-column: 1/span 2;
+	}
+	.select-location {
+		width: 170px;
+		grid-column: 1/span 1;
+	}
+	.search-now {
+		width: 170px;
+		grid-column: 2/span 1;
+	}
 }
 
 @media screen and (max-width : 480px) {
@@ -43,7 +108,7 @@
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	header {
+	.header {
 		grid-template-columns: 10% 90%;
 		grid-template-rows: repeat(2, 40px);
 	}
@@ -53,6 +118,41 @@
 	}
 	.input-group {
 		width: 100%;
+	}
+	.search-car {
+		height: 400px;
+	}
+
+	/* search-car */
+	.search-car header {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+	.search-car h2 {
+		font-size: 16px;
+	}
+	.select {
+		width: 190px;
+		grid-template-columns: 170px;
+		grid-template-rows: repeat(5, 40px);
+		grid-gap: 5px;
+		padding-bottom: 20px;
+	}
+	.select-year {
+		grid-column: 1/span 1;
+	}
+	.search-now {
+		width: 170px;
+		grid-column: 1/span 1;
+	}
+	.from-year {
+		width: 85px;
+		margin-right: 5px;
+		background-image: url(../images/fromYear.png);
+	}
+	.to-year {
+		width: 85px;
+		background-image: url(../images/toYear.png);
 	}
 }
 
