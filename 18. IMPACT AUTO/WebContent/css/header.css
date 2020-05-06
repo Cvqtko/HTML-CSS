@@ -2,11 +2,15 @@ html {
 	font: 16px/1.5 'PT Serif', serif;
 }
 
+body {
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 header {
 	display: grid;
 	grid-template-columns: 15% 60% 25%;
-	margin-top: 25px;
-	margin-left: 20px;
 	padding-bottom: 0px;
 }
 
@@ -95,7 +99,6 @@ select {
 
 .signin {
 	margin-left: auto;
-	margin-right: 20px;
 	margin-top: 2px;
 	display: flex;
 	color: #017dd6;
