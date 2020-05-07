@@ -40,54 +40,54 @@
 }
 
 .bmw {
-	background: url('../images/bmw.jpg') no-repeat center;
+	background: url(../images/bmw.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .lambo {
-	background: url('../images/lamborginy.jpg') no-repeat center;
+	background: url(../images/lamborginy.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .maseratti {
-	background: url('../images/maseratti.jpg') no-repeat center;
+	background: url(../images/maseratti.jpg) no-repeat center;
 	background-size: cover;
 	background-color: yellow;
 }
 
 .mercedess {
-	background: url('../images/mercedess.jpg') no-repeat center;
+	background: url(../images/mercedess.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .bentley {
-	background: url('../images/bentley.jpg') no-repeat center;
+	background: url(../images/bentley.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .mazda {
-	background: url('../images/mazda.jpg') no-repeat center;
+	background: url(../images/mazda.jpg) no-repeat center;
 	background-size: cover;
 	background-color: yellow;
 }
 
 .hundai {
-	background: url('../images/hundai.jpg') no-repeat center;
+	background: url(../images/hundai.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .alfa {
-	background: url('../images/alfa.jpg') no-repeat center;
+	background: url(../images/alfa.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .merc {
-	background: url('../images/merc.jpg') no-repeat center;
+	background: url(../images/merc.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .jeep {
-	background: url('../images/jeep.jpg') no-repeat center;
+	background: url(../images/jeep.jpg) no-repeat center;
 	background-size: cover;
 }
 
