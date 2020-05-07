@@ -44,6 +44,7 @@
 	background-image: url(../images/arrows.png);
 	-moz-appearance: none;
 	-webkit-appearance: none;
+	border: none;
 }
 
 .select-year {
@@ -62,6 +63,7 @@
 	background-image: url(../images/fromYear.png);
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
+	border: none;
 }
 
 .to-year {
@@ -76,6 +78,7 @@
 	background-image: url(../images/toYear.png);
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
+	border: none;
 }
 
 .select-location {
@@ -89,6 +92,7 @@
 	background-image: url(../images/arrows.png);
 	-moz-appearance: none;
 	-webkit-appearance: none;
+	border: none;
 }
 
 .search-now {
