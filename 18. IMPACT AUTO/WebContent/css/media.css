@@ -25,10 +25,22 @@
 	.search-car h2 {
 		font-size: 25px;
 	}
+	.wrapper {
+		width: 800px;
+		grid-template-columns: repeat(2, 370px);
+		grid-template-rows: repeat(4, 180px);
+		margin: 0 auto;
+	}
+	.hide-second {
+		display: none;
+	}
+	.popular-cars header {
+		margin: 0px auto 10px auto;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width : 900px) {
-
 	.select {
 		grid-template-columns: 170px 170px 170px 170px;
 		grid-gap: 5px;
@@ -56,6 +68,10 @@
 	.search-now {
 		width: 345px;
 		grid-column: 3/span 2;
+	}
+	.wrapper {
+		width: 768px;
+		margin: 0 auto;
 	}
 }
 
@@ -101,6 +117,23 @@
 	.search-now {
 		width: 170px;
 		grid-column: 2/span 1;
+	}
+	.wrapper {
+		width: 480px;
+		grid-template-columns: repeat(1, 460px);
+		grid-template-rows: repeat(3, 225px);
+		margin: 0 auto;
+	}
+	.hide-third {
+		display: none;
+	}
+	.button {
+		width: 460px;
+		height: 225px;
+	}
+	.inner-car {
+		width: 275px;
+		height: 215px;
 	}
 }
 
@@ -154,6 +187,24 @@
 	.to-year {
 		width: 85px;
 		background-image: url(../images/toYear.png);
+	}
+	.wrapper {
+		width: 370px;
+		grid-template-columns: repeat(1, 370px);
+		grid-template-rows: repeat(3, 180px);
+		margin: 0 auto;
+		margin-left: 0;
+	}
+	.button {
+		width: 370px;
+		height: 180px;
+	}
+	.inner-car {
+		width: 220px;
+		height: 170px;
+	}
+	.popular-cars header {
+		text-align: left;
 	}
 }
 

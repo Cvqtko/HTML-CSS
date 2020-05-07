@@ -1,0 +1,137 @@
+.popular-cars header {
+	margin-left: 80px;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.popular-cars {
+	height: 600px;
+	margin-top: 40px;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	display: grid;
+	padding-top: 20px;
+	grid-template-columns: repeat(3, 370px);
+	grid-template-rows: repeat(3, 180px);
+	grid-gap: 20px;
+	justify-content: center;
+	border-top: 4px solid #54b6fe;
+	display: grid;
+	display: grid;
+}
+
+.button {
+	display: block;
+	width: 370px;
+	height: 180px;
+	border: none;
+	cursor: pointer;
+	border-bottom: 2px solid #e1e1e1;
+	display: flex;
+}
+
+.inner-car {
+	width: 220px;
+	height: 170px;
+}
+
+.bmw {
+	background: url('../images/bmw.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.lambo {
+	background: url('../images/lamborginy.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.maseratti {
+	background: url('../images/maseratti.jpg') no-repeat center;
+	background-size: cover;
+	background-color: yellow;
+}
+
+.mercedess {
+	background: url('../images/mercedess.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.bentley {
+	background: url('../images/bentley.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.mazda {
+	background: url('../images/mazda.jpg') no-repeat center;
+	background-size: cover;
+	background-color: yellow;
+}
+
+.hundai {
+	background: url('../images/hundai.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.alfa {
+	background: url('../images/alfa.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.merc {
+	background: url('../images/merc.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.jeep {
+	background: url('../images/jeep.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.inner-car img {
+	width: 90px;
+	padding: 5px;
+	padding-top: 7px;
+}
+
+.car-info {
+	margin-left: 15px;
+}
+
+.car-info div {
+	height: 20px;
+}
+
+.car-info h2 {
+	color: #017dd6;
+	font-size: 20px;
+}
+
+.car-info h1 {
+	letter-spacing: 1px;
+	font-weight: 900;
+	transform: scaleY(0.9);
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.car-info h5 {
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	font-weight: 400;
+	transform: scaleY(0.9);
+	padding-top: 5px;
+}
+
+.car-info p {
+	font-family: Tahoma;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	transform: scaleY(0.9);
+	color: #808080;
+	margin-top: 10px;
+}
