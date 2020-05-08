@@ -213,4 +213,22 @@
 		grid-column: 2/2;
 		grid-row-start: 1;
 	}
+	.wrapper {
+		width: 370px;
+		grid-template-columns: repeat(1, 270px);
+		grid-template-rows: repeat(3, 135px);
+		margin: 0 auto;
+		margin-left: 0;
+	}
+	.button {
+		width: 270px;
+		height: 135px;
+	}
+	.inner-car {
+		width: 220px;
+		height: 170px;
+	}
+	.popular-cars header {
+		text-align: left;
+	}
 }
