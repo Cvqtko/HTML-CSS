@@ -81,6 +81,11 @@ footer p a {
 	transition: all 0.5s ease-in;
 }
 
+.icons:hover+#mail {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
 .icons:hover>#fas {
 	color: var(--electric-blue);
 	transition: all 0.5s ease-in;
