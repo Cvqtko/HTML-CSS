@@ -34,6 +34,7 @@ $(window).scroll(function() {
 	checkAnimation('css');
 	checkAnimation('my-sql');
 	checkAnimation('javascript');
-	checkAnimation('junit');
+	checkAnimation('alg');
+	checkAnimation('hibernate');
 	checkAnimation('design-patterns');
 });

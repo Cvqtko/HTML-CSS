@@ -72,15 +72,21 @@
 	animation: javascript 1.618s;
 }
 
-.junit{
+.alg{
 	width:93%;
 	border-radius: 3px;
-	animation: junit 1.618s;
+	animation: alg 1.618s;
 }
+
 .design-patterns{
+	width:93%;
+	border-radius: 3px;
+	animation: alg 1.618s;
+}
+.hibernate{
 	width:90%;
 	border-radius: 3px;
-	animation: design-patterns 1.618s;
+	animation: hibernate 1.618s;
 }
 
 @keyframes java{
@@ -118,7 +124,7 @@
 	}
 }
 
-@keyframes junit{
+@keyframes alg{
 	0%{
 		width:0%;
 	}
@@ -128,6 +134,15 @@
 }
 
 @keyframes design-patterns{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:93%;
+	}
+}
+
+@keyframes hibernate{
 	0%{
 		width:0%;
 	}
