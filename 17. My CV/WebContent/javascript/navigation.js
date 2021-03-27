@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	window.onbeforeunload = function() {
+/*	window.onbeforeunload = function() {
 		window.scrollTo(0, 0);
-	}
+	}*/
 
 	// Add smooth scrolling to all links
 	$("a").on('click', function(event) {

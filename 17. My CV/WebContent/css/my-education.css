@@ -51,7 +51,9 @@
 	font-size: 0.8em;
 	color: var(--pewter-grey);
 }
-
+.education-info a {
+	text-decoration: none;
+}
 .education-year {
 	margin-right: 1em;
 }
