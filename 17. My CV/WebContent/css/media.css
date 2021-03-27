@@ -1,3 +1,13 @@
+@media screen and (max-width : 1280px) {
+	.education-uni {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	.education-uni h6 {
+		font-size: 0.8em;
+	}
+}
+
 @media screen and (max-width : 1080px) {
 	.my-info {
 		grid-template-columns: 100%;
@@ -41,6 +51,10 @@
 	}
 	.header-services p {
 		margin-bottom: 2em;
+	}
+	.education-uni {
+		margin-left: 2em;
+		margin-right: 2em;
 	}
 	.skills {
 		grid-template-columns: 100%;
