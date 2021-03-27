@@ -16,14 +16,12 @@
 
 .sertificate {
 	width: 86%;
-	margin-left: 7%;
-	margin-bottom: 5%;
-	margin-top:2em;
-	text-align: center; 
+	margin-left: 2em;
+	margin-bottom: 1em;
+	text-align: left; 
 	cursor: pointer;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+
 }
 
 .soft-uni{
@@ -43,7 +41,7 @@
 
 .sertificate p {
 	color: var(--anchor-grey);
-	font-size: 0.8em;
+	font-size: 0.6em;
 	 flex-basis: 100%;
 }
 
@@ -55,6 +53,7 @@
 .sertificate img {
 	height: 70px;
 	width: auto;
+	margin-right: 1.5em;
 }
 
 .certificate {
