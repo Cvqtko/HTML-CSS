@@ -15,9 +15,9 @@
 
 
 .sertificate {
-	width: 86%;
-	margin-left: 2em;
-	margin-bottom: 1em;
+	padding-right:1em;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
 	text-align: left; 
 	cursor: pointer;
 	display: flex;
@@ -31,6 +31,7 @@
 .sertificate h6 {
 	margin: 0em 0 0.5em 0.5em;
 	color: var(--electric-blue);
+	font-size: 1em;
 	font-weight: 400;
 }
 
@@ -41,7 +42,7 @@
 
 .sertificate p {
 	color: var(--anchor-grey);
-	font-size: 0.6em;
+	font-size: 0.7em;
 	 flex-basis: 100%;
 }
 
@@ -51,10 +52,10 @@
 }
 
 .sertificate img {
-	height: 70px;
+	height: 90px;
 	width: auto;
-	margin-right: 1.5em;
-	margin-top: 0.5em;
+	margin-right: 0.5em;
+
 }
 
 .certificate {
