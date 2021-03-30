@@ -15,7 +15,7 @@ function isElementInViewport(elem) {
 }
 
 // Check if it's time to start the animation.
-function checkAnimation(element) {
+function playAnimation(element) {
 	var $elem = $('.bar .' + element);
 	var el = document.getElementById(element);
 	// If the animation has already been started
@@ -29,12 +29,12 @@ function checkAnimation(element) {
 
 // Capture scroll events
 $(window).scroll(function() {
-	checkAnimation('java');
-	checkAnimation('html');
-	checkAnimation('css');
-	checkAnimation('my-sql');
-	checkAnimation('javascript');
-	checkAnimation('alg');
-	checkAnimation('hibernate');
-	checkAnimation('design-patterns');
+	playAnimation('java');
+	playAnimation('html');
+	playAnimation('css');
+	playAnimation('my-sql');
+	playAnimation('javascript');
+	playAnimation('alg');
+	playAnimation('hibernate');
+	playAnimation('design-patterns');
 });
