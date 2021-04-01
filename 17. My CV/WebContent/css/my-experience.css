@@ -1,0 +1,8 @@
+.my-experience .education-uni {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
