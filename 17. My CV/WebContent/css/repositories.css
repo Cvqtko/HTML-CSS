@@ -21,39 +21,41 @@
 	justify-content: center;
 }
 
-.spring-mvc {
-	background: url('../images/1.png') no-repeat center;
+.algorithms-repo {
+	background: url('../images/12.png') no-repeat center;
 }
 
-.java-ee {
-	background: url('../images/2.png') no-repeat center;
-}
-
-.hibernate-repo {
-	background: url('../images/3.png') no-repeat center;
-}
-
-.footer-my-sql {
-	background: url('../images/4.png') no-repeat center;
-}
-
-.java-oop {
+.java-oop-repo {
 	background: url('../images/5.png') no-repeat center;
 }
 
-.html-css {
+.javascript-repo {
+	background: url('../images/11.png') no-repeat center;
+}
+
+.my-sql-repo {
+	background: url('../images/4.png') no-repeat center;
+}
+
+
+.html-css-repo {
 	background: url('../images/6.png') no-repeat center;
 }
 
-.footer-design-patterns {
+.design-patterns-repo {
 	background: url('../images/7.png') no-repeat center;
 }
 
-.java-advanced {
+.java-advanced-repo {
 	background: url('../images/8.png') no-repeat center;
 }
 
-.game {
+.java-fundamentals-repo{
+	
+	background: url('../images/10.png') no-repeat center;
+}
+
+.game-repo {
 	background: url('../images/9.png') no-repeat center;
 }
 
