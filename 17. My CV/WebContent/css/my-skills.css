@@ -43,25 +43,25 @@
 }
 
 .java{
-	width:93%;
+	width:80%;
 	border-radius: 3px;
 	animation: java 1.618s;
 }
 
 .html{
-	width:85%;
+	width:80%;
 	border-radius: 3px;
 	animation: html 1.618s;
 }
 
 .css{
-	width:85%;
+	width:80%;
 	border-radius: 3px;
 	animation: html 1.618s;
 }
 
 .my-sql{
-	width:90%;
+	width:80%;
 	border-radius: 3px;
 	animation: sql 1.618s;
 }
@@ -73,18 +73,18 @@
 }
 
 .alg{
-	width:93%;
+	width:80%;
 	border-radius: 3px;
 	animation: alg 1.618s;
 }
 
 .design-patterns{
-	width:93%;
+	width:80%;
 	border-radius: 3px;
 	animation: alg 1.618s;
 }
 .hibernate{
-	width:90%;
+	width:70%;
 	border-radius: 3px;
 	animation: hibernate 1.618s;
 }
@@ -94,7 +94,7 @@
 		width:0%;
 	}
 	100%{
-		width:93%;
+		width:80%;
 	}
 }
 
@@ -103,7 +103,7 @@
 		width:0%;
 	}
 	100%{
-		width:85%;
+		width:80%;
 	}
 }
 @keyframes sql{
@@ -111,7 +111,7 @@
 		width:0%;
 	}
 	100%{
-		width:90%;
+		width:80%;
 	}
 }
 
@@ -129,7 +129,7 @@
 		width:0%;
 	}
 	100%{
-		width:93%;
+		width:80%;
 	}
 }
 
@@ -138,7 +138,7 @@
 		width:0%;
 	}
 	100%{
-		width:93%;
+		width:80%;
 	}
 }
 
@@ -147,6 +147,6 @@
 		width:0%;
 	}
 	100%{
-		width:90%;
+		width:70%;
 	}
 }
