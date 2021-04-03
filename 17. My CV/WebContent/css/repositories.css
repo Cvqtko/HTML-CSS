@@ -13,7 +13,7 @@
 }
 
 .wrapper {
-	margin:3em auto 2em auto;
+	margin: 3em auto 2em auto;
 	display: grid;
 	grid-template-columns: repeat(3, 350px);
 	grid-template-rows: repeat(3, 250px);
@@ -71,6 +71,12 @@
 	box-shadow: 0px 15px 20px #e0e0e0;
 	cursor: pointer;
 	outline: none;
+}
+
+.link {
+	display: inline-block; 
+	height : 100%; 
+	width : 100%; 
 }
 
 .button:hover {
