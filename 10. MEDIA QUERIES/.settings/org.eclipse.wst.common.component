@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="10. MEDIA QUERIES">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="10._MEDIA_QUERIES"/>
+    </wb-module>
+</project-modules>

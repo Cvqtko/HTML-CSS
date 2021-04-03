@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="04. INTRODUCTION TO HTML &amp; CSS - EXERCISE">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="4._INTRODUCTION_TO_HTML_&amp;_CSS_-_EXERCISE"/>
+    </wb-module>
+</project-modules>

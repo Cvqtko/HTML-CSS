@@ -1,0 +1,27 @@
+ul {
+	margin: 100px 0 0 100px;
+	list-style-type: none;
+}
+
+ul li a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #155175;
+}
+
+li {
+	margin: 0 10px 0 0;
+	display: inline;
+	padding: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: Arial;
+	text-color: #155175;
+	outline:0px solid #155175;
+	border: 5px solid #155175;
+	transition: outline 0.4s ease-out;
+}
+
+li:hover{
+	outline-width: 9px;
+}

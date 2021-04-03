@@ -1,0 +1,123 @@
+@import
+	url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+@import url('reset.css');
+
+@import url('typography.css');
+
+html {
+	font: 16px/1.5 'PT Serif', serif;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	list-style-type: none;
+	margin: 1em;
+}
+
+.orange {
+	color: orange;
+}
+
+header nav ul:nth-child(1) li {
+	text-transform: uppercase;
+}
+
+header nav ul:nth-child(2) li {
+	border-right: 1px solid grey;
+	padding-right: 0.5em;
+	margin-left: 0em;
+}
+
+.main-image {
+	background: url('../images/image1.jpg') no-repeat center;
+	background-size: auto 25em;
+	color: white;
+	text-align: center;
+	padding: 2em;
+	height: 25em;
+}
+
+.main-image h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.main-image p {
+	font-size: 16px;
+}
+
+.how-it-works h4 {
+	text-align: center;
+	color: grey;
+}
+
+.how-it-works ul {
+	display: flex;
+	justify-content: center;
+	color: grey;
+}
+
+.how-it-works ul li {
+	list-style: none;
+	text-align: center;
+	width: 20%;
+	margin: 0em 1em 1em 1em;
+}
+
+.how-it-works ul li h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.num:before, .num:after {
+	height: 2px;
+	width: 15px;
+	background-color: grey;
+	content: '';
+	display: block;
+	margin: 0.5em;
+}
+
+.images {
+	background-color: #eaeaea;
+}
+
+.images ul {
+	display: flex;
+	justify-content: center;
+}
+
+.images ul li {
+	list-style-type: none;
+}
+
+.images ul li img {
+	width: 300px;
+	height: 200px;
+	margin: 2em 1em 2em 1em;
+}
+
+footer {
+	height: 4em;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+footer p {
+	letter-spacing: 2px;
+}
