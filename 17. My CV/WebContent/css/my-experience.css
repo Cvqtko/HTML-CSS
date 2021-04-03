@@ -3,6 +3,12 @@
 	grid-template-columns: 35% 65%;
 	margin-left: 2em;
 	margin-right: 2em;
-	padding-bottom: 1em;
-	margin-bottom: 1em;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+.education-uni h4 {
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	font-weight: 200;
 }
